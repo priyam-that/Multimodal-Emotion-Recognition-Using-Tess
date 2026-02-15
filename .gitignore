@@ -1,0 +1,24 @@
+# System files
+.DS_Store
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset
+project/data/
+project/data_mock/
+
+# Internal logic
+project/utils/
+
+# Internal scripts
+project/test_all.sh
+
+# Exclude ALL markdown files
+*.md
+
+# EXCEPT ONLY README
+!project/README.md
